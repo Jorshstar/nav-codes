@@ -1,0 +1,44 @@
+<!--Creating a simple Navbar-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--meta charset is  character in coding. it makes sure words areexpressed correctly-->
+    <meta name="description" content="" />
+    <!--its just a description tag mainly used by the digital marketting guys-->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!--this is used to limk the css with our html-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--this is called the browser comptability meta tag. it is for responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <!--class helps give code a particular styling different from other code-->
+      <div class="logo">
+        <!--to write a class we can use div.logo-->
+        <a href="#"
+          ><img
+            src="images/innkeeper-logo.png"
+            alt="innkeeper-logo"
+            width="50px"
+            height="50px"
+        /></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="button-group">
+        <button class="btn btn-success"><a href="#">Login</a></button>
+        <button class="btn btn-danger"><a href="#">Sign up</a></button>
+      </div>
+    </div>
+  </body>
+</html>
